@@ -1,0 +1,41 @@
+/* Body: background colour and font family */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/* Tag selector */
+h1 {
+    text-align: center;
+    color: #1a3c6e;
+}
+
+/* Id selector */
+#student-name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Class selector: info paragraphs */
+.info {
+    color: #555555;
+}
+
+/* Class selector: each subject item */
+.subject {
+    border: 1px solid #1a3c6e;
+    padding: 8px;
+    margin-bottom: 6px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+/* Class selector: result box */
+.result-box {
+    border: 2px solid #1a3c6e;
+    padding: 15px;
+    background-color: #e3ecf7;
+    width: 300px;
+    margin: 20px 0;
+}
